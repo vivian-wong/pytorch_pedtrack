@@ -1,0 +1,16 @@
+name: pedtrack
+dependencies: 
+- python=3.6
+- pillow
+- notebook
+- numba
+- pip: 
+  - torch>=1.2
+  - torchvision
+  - matplotlib
+  - numpy
+  - tqdm
+  - imgaug>=0.4
+  - torchsummary
+  - scikit-learn==0.22.2
+  - filterpy
